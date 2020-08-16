@@ -1,10 +1,28 @@
+body
+{
+    background-color: #fff8dc;
+    margin: 0;
+}
+
+header
+{
+    margin: -90px;
+}
+
+a
+{
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
 .site-header
 { 
-    background-color: #fff8dc;
-    color: #a59980;
-
     height: 100vh;
+
     font-family: monospace;
+    color: #a59980;
 
     display: flex;  /* to position items on the screen */
     flex-direction: column;
@@ -26,12 +44,20 @@
     box-shadow: cadetblue;
 }
 
-.course-link
-{
-    color: blue;
-}
 
-body
+.container {width:90%; margin:auto; overflow:hidden;}
+
+.items {width:30%; display: block; padding: 4px; margin-bottom: 20px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; float:left; margin-left:1%;}
+
+.thumbnail {display: block; max-width: 100%; height: auto;}
+
+.caption {color: #a59980; padding:0px 10px 10px; font-weight: bold; text-align: center;}
+
+
+footer
 {
-    margin: 0;
+    background-color: #a59980;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
 }
